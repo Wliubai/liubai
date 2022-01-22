@@ -1,10 +1,9 @@
 /**
- * @program: 20220122
+ * @program: untitled
  * @description
  * @author: WJJ
- * @create: 2022-01-22 14:29
+ * @create: 2022-01-22 19:53
  **/
-
 class Node {
     public int data;//0
     public Node next;//null
@@ -27,9 +26,9 @@ public class MyLinkedList {
         this.head=node;
     }
     public Node reverseList(){
-       Node cur=this.head;
-       Node prev =null;
-       Node newHead=null;
+        Node cur=this.head;
+        Node prev =null;
+        Node newHead=null;
         while(cur != null){
             Node curNext=cur.next;
             if(curNext==null){
